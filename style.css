@@ -1,0 +1,87 @@
+
+ body {
+  background-color: yellow;
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
+
+
+.mdl-slider__container {
+    background-color: white !important; /* Met le fond de la barre en blanc */
+    position: fixed !important; /* Permet de définir la position de la barre comme fixe */
+    top: 0; /* Défini la postion de la barre en haut */
+    z-index: 200; /* Une valeur élevée ici permet de s'assurer que l'élément est au dessus des autres */
+    width: 100vw; /* Défini la largeur de l'élément comme étant 100% de la largeur de l'écran */
+}
+
+
+
+.title{
+text-decoration:underline;
+text-align:centre;
+}
+#l1 {word-spacing: 15px;}
+#l2 {word-spacing: 15em;}
+
+ body {
+}  background-color: lightblue;
+
+#page{
+    width: 	860px;
+    font-size: 16px;
+	margin-left: 15px;
+	margin-right: 10px;
+	margin-top: 15px;
+   }
+.rubrique{
+    margin-top: 60px;
+    font-size: 30px;
+    border-bottom: 5px solid black;
+	border-color: #A8A8A8;
+    color: #0099FF;
+    font-family: Gill Sans MT;}
+
+.infophoto{/*Hauteur de la div*/
+    height: 100px;}
+.info{
+    float: left;}
+	td {margin: 0 0 0 17px;}
+.photo{
+	float: right;
+	color: #000000}
+
+.photocv{margin-top: 8px;}
+.ta{ 
+    float: right;}
+.tablephoto{
+    float: right;
+	font-family: Gill Sans MT;
+    font-size: 16px;
+    margin-top: 10px;
+	margin-bottom: 25px;}
+.nom{
+    font-size: 35px;
+    font-family: Monotype Sorts Normal;
+    color: #000000;}
+.dispo{
+    margin-right: 30px;
+    float: right;
+	font-family: Gill Sans MT;
+	font-size: 14.5px;
+	color: #FF0000}
+.competence_techniques
+    font-size: 26px;
+    text-align:left;
+    letter-spacing:1px;
+	font-weight: bold;
+    word-spacing: 2px;
+    font-family: Avenir Next Condensed Medium;
+    color:#0099FF;}
+#title{font-family: Trebuchet MS;}
+
+div{
+	text-align:left;
+}

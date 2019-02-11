@@ -1,6 +1,7 @@
-window.addEventListener ("scroll", function() { 
 
-document.getElementById('progress_bar').value = deplacement 
+window.addEventListener("scroll", function() { //ajoute une fonction efectuée lorsque l'utilisateur scroll sur la page
+
+document.getElementById('progress_bar').value = deplacement; // Modifie la valeur de la barre de progression pour qu'elle corresponde au déplacement du scroll
 });
 
 
@@ -8,9 +9,6 @@ document.getElementById('progress_bar').value = deplacement
 window.scrollY // Valeur du scroll en pixel
 document.body.offsetHeight // Hauteur totale de la page en pixel
 window.innerHeight // Hauteur de l'écran en pixel
-
-
-
 
 
 function myScroll() { // Définition de la fonction de scroll
